@@ -471,13 +471,29 @@ b, strong {
     bottom: 50px;
   }
 }
+
+/* ************My CSS************ */
+@media (max-width: 570px) {
+  .color-mode {
+    display: none;
+  }
+
+  .custom-dark {
+    display: block;
+  }
+}
+
+@media (min-width: 570px) {
+  .custom-dark{
+    display: none !important;
+  }
+}
+
+/* ************************************ */
+
 @media (max-width: 991px) {
   .full-screen {
     padding-bottom: 4rem;
-  }
-
-  .color-mode {
-    display: none;
   }
 
   .about-image {
